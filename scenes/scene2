@@ -1,0 +1,21 @@
+Scene:
+	objects	= 1
+	lights = 1
+	FOV = 60.0
+objects {
+#id = 0
+	type = cone
+	position = 0, 0, 200
+	direction = 1, 0, 0
+	size = 0.4
+	color = 0.6, 0.4, 0.3
+	spec = 0.9
+}
+lights {
+#id = 0
+Light:
+	position = 0, 0, -100
+Camera {
+	position = 0, 0, 0
+	rotation = 0, 0, 0
+}

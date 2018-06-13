@@ -1,0 +1,41 @@
+Scene
+	objects = 2
+	lights = 4
+	FOV = 60
+
+objects {
+#id = 0
+	position = 0, -25, 60
+	size = 50
+	type = sphere
+	color = 0.5, 0.3, 0.3
+	spec = 0.9
+
+#id = 1
+    position = -30, -10, 200
+    size = 400
+    type = sphere
+    color = 0.323, 0.123, 0.22
+	spec = 0.9
+}
+lights {
+#id = 0
+Light:
+	position = -1000.0,380.0,300.0
+
+#id = 1
+Light:
+	position = 1024.0,768.0,-100.0
+
+#id = 2
+Light:
+	position = 600, 0, -100
+#id = 3
+Light:
+	position = 20, 20, 50
+}
+
+Camera {
+	position = 0, 0, -70
+	rotation = 10, 0, 0
+}

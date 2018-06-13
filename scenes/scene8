@@ -1,0 +1,21 @@
+Scene:
+	objects = 1
+	lights = 1
+	FOV = 60.0
+objects {
+#id = 0
+	type = plane
+	position = 0, 1, 0
+	size = 50
+	color = 1, 1.2, 1
+	spec = 0
+
+lights {
+#id = 0
+Light:
+	position = position = 0, 0, 900
+
+}
+Camera {
+	position = 0, 0, -800
+	rotation = 0, 0, 0
